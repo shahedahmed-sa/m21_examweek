@@ -1,0 +1,14 @@
+student-registration/
+├── config/
+│   └── db.js         # MongoDB connection setup
+├── controllers/
+│   ├── authController.js  # Login and Auth functions
+│   ├── studentController.js # Student CRUD operations
+├── middleware/
+│   └── auth.js       # JWT authentication middleware
+├── models/
+│   └── Student.js    # Student model schema
+├── routes/
+│   ├── authRoutes.js # Auth routes (login, register)
+│   └── studentRoutes.js # Student profile, file operations
+└── app.js            # Main app file

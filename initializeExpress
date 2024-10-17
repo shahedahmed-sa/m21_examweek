@@ -1,0 +1,4 @@
+mkdir student-registration
+cd student-registration
+npm init -y
+npm install express mongoose bcryptjs jsonwebtoken cookie-parser multer dotenv
